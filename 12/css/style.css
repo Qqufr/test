@@ -1,0 +1,70 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.header-contacts {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-top: 10px;
+}
+
+.header-contacts__phone {
+	font-size: 22px;
+	margin-right: 13px;
+}
+
+.header-contacts__button {
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffffff;
+	border: none;
+}
+
+.button {
+	font-size: 14px;
+	background-color: #ff9d00;
+	border: none;
+	color: #ffffff;
+	padding: 13px 22px;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+}
+
+.header-img {
+	vertical-align: middle;
+}
+
+.stick {
+	background-color: black;
+	width: 1px;
+	height: 32px;
+	opacity: 0.2;
+	margin-right: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #373737;
+}
+
+
+.button:hover {
+	background-color: #ffc300;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: yellow;
+}
+
+.header {
+	width: 968;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 968px;
+	}
+}

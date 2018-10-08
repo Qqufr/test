@@ -1,0 +1,178 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.header-contacts {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-top: 10px;
+}
+
+.header-contacts__phone {
+	font-size: 22px;
+	margin-right: 13px;
+}
+
+.header-contacts__button {
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffffff;
+	border: none;
+}
+
+.button {
+	font-size: 14px;
+	background-color: #ff9d00;
+	border: none;
+	color: #ffffff;
+	padding: 13px 22px;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+}
+
+.header-img {
+	vertical-align: middle;
+}
+
+.stick {
+	background-color: black;
+	width: 1px;
+	height: 32px;
+	opacity: 0.2;
+	margin-right: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #373737;
+}
+
+
+.button:hover {
+	background-color: #ffc300;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: yellow;
+}
+
+.header {
+	width: 968;
+	padding: 15px 0;
+}
+
+.main {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: #373737 url(../img/main/main-bg.jpg) center no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	position: relative;
+	z-index: 1;
+}
+
+.main::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 0;
+}
+
+.main-img {
+	position: relative;
+}
+
+.main-img::before {
+	content: '';
+	position: absolute;
+	width: 390px;
+	height: 390px;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	z-index: -1;
+	left: 50%;
+	margin-left: -195px;
+}
+
+.main-text__title {
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-size: 41px;
+}
+
+.main-text__subtitle {
+	font-size: 28px;
+	font-weight: 300;
+	margin-bottom: 27px;
+}
+
+.main-text__form {
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 30px 27px;
+}
+
+.form-title {
+	padding-right: 87px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.form-title__important {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.form__input {
+	border-radius: 4px;
+	border: none;
+	padding: 20px;
+	flex-basis: 50%;
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+.button_big {
+	padding-top: 18px;
+	padding-bottom: 18px;
+	vertical-align: middle;
+	width: 30%;
+}
+
+.form {
+	display: flex;
+	margin-bottom: 12px;
+	/*justify-content: space-between;*/
+}
+
+.form-small {
+	font-size: 14px;
+	font-weight: 300;
+	padding-left: 20px;
+}
+
+input:focus {
+	outline: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+.content {
+	margin-top: -45px;
+}

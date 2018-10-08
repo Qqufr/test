@@ -1,0 +1,125 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 101px;
+	color: #6c1c02;
+	font-family: "Muller Bold";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 44px;
+}
+
+.data {
+	color: #000000;
+	font-family: "Muller Regular";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 98px;
+}
+
+.button {
+	width: 523px;
+	height: 75px;
+	box-shadow: 0 9px 21px rgba(0, 0, 0, 0.15);
+	background-color: #e70000;
+	border: none;
+	clear: both;
+}
+
+.button-block {
+	clear: both;
+	margin-bottom: 50px;
+}
+
+.name {
+	color: #393939;
+	font-family: "Muller Regular";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 44px;
+}
+
+.price {
+	color: #393939;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: "Muller Medium";
+	font-weight: 500;
+}
+
+.strong {
+	font-family: "Muller Bold";
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.descr {
+	margin-top: 29px;
+	margin-bottom: 32px;
+}
+
+.section, .section2, .section3 {
+	float: left;
+	margin-right: 169px;
+}
+
+.section, .section4 {
+	margin-left: 400px;
+}
+
+.section4, .section5, .section6 {
+	float: left;
+	margin-right: 169px;
+}
+
+.secondblock {
+	float: left;
+	clear: both;
+} 
+
+.price-block {
+	margin-bottom: 135px;
+}
+
+.button-text {
+	color: #ffffff;
+	font-family: "Muller Bold";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 44px;
+}
+
+@media (max-width: 1200px) {
+	.section, .section4 {
+		margin-left: 10px;
+	}
+}
+
+@media (max-width: 992px) {
+	.section, .section4 {
+		margin-left: 100px;
+	}
+	.section3, .section6 {
+		margin-left: 300px;
+	}
+}
+
+@media (max-width: 768px) {
+	.section2, .section4 {
+		margin-left: 100px;
+	}
+	.section5 {
+		margin-left: 105px;
+	}
+	.section3, .section6 {
+		margin-left: 100px;
+	}
+	.section, .section4, .section2, .section3, .section5, .section6 {
+		margin-left: 250px;
+	}
+}

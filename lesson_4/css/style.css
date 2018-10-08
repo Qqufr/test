@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f6f6f6;
+	color: #2f2f2f; 
+}
+
+button {
+	border: none;
+}
+
+.parent {
+	width: 1010px;
+	height: 503px;
+	border: 1px solid #d7d7d7;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+.pic {
+	margin-left: 48px;
+	margin-top: 64px;
+}
+
+.text {
+	float: right;
+}
+
+.caption {
+	margin-right: 309px;
+}
+
+.description {
+	font-size: 19px;
+	font-weight: 400;
+	padding-bottom: 25px;
+}
+
+.price-word {
+	width: 35px;
+	height: 14px;
+	font-size: 19px;
+	font-weight: 400;
+	padding-bottom: 23px;
+}
+
+.price {
+	padding-top: 23px;
+	width: 103px;
+	height: 28px;
+	font-size: 30px;
+	font-weight: 400;
+	padding-bottom: 56px;
+}
+
+.button {
+	width: 252px;
+	height: 50px;
+	display: inline-block;
+	background-color: #ec744a;
+}
+
+.button-text {
+	color: #ffffff;
+	font-size: 19px;
+	font-weight: 400;
+}
